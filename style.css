@@ -5,25 +5,38 @@
   padding: 0;
 }
 
+:root {
+  --voidgreen: #00FF5E;
+  --voidgreenmuted: #007f2f;
+}
+
 /*
 @font-face {
   font-family: "glasstty";
     src: url(/fonts/glass_tty_vt220-webfont.woff);
 }
 */
+
+
+
 body {
   background-color: black;
-  color: white;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: blur(5px);
   font-family:"B612 Mono";
   font-size: 16px;
   line-height: 1.5;
-  background: #000;
+  color: var(--voidgreen);
   /* font-family: "glasstty"; */
 }
 
 a {
   text-decoration: none;
-  color: #00FF5E;
+  color: var(--voidgreen);
 }
 
 ul {
@@ -34,7 +47,50 @@ img {
   max-width: 100%;
 }
 
-/* 
+.navbar {
+  color: var(--voidgreen);
+  background-color: rgba(0,0,0,.5);
+  padding: 20px;
+  border: 6px solid var(--voidgreenmuted);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .main-menu ul {
+  display: flex;
+}
+
+.navbar ul li a {
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+  color: var(--voidgreenmuted);
+}
+
+/* utility classes */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-sm {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/*
+
+OLD
+
 .links {
   margin: auto;
   width: 60%;
