@@ -8,9 +8,15 @@
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
     <link rel="shortcut icon" href="favicon.png">
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400; ,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/style.css" rel="stylesheet">
+    <!-- type="text/css" media="all"> -->
   </head>
   <body>
+    <!--
     <h1>hello</h1>
     <img src="voidlogo.svg" alt="[VOiD] Logo" />
     <p class="links">
@@ -18,5 +24,26 @@
       <a class="item" href="">gallery</a>
       <a class="item" href="">sponsor</a>
     </p>
+    -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="void.png" alt="logo">
+          </a>
+        </div>
+        <!--
+        <div class="main-menu">
+          <ul>
+            <li><a href="about.html"></a></li>
+            <li><a href="gallery.html"></a></li>
+            <li><a href="sponsor.html"></a></li>
+            <li><a href="resources.html"></a></li>
+          </ul>
+        </div>
+        -->
+      </div>
+    </nav>
+    <script src="js/main.js"></script>
   </body>
 </html>
