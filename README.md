@@ -1,2 +1,2 @@
 # voidftc.neocities.org
-A website
+a website
