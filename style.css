@@ -1,0 +1,27 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+@font-face {
+  font-family: "glasstty";
+    src: url(/fonts/glass_tty_vt220-webfont.woff);
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "glasstty";
+}
+
+.links {
+  margin: auto;
+  width: 60%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 20px;
+  font-size: 50px;
+}
+
+.links.item {
+  align-self: center;
+  font-family: "glasstty";
+}
