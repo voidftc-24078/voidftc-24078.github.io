@@ -7,6 +7,14 @@ let imgWrapper = document.getElementById('fullImg')
 // get close button element
 let closebutton = document.querySelector('span')
 
+/* var $galleryContainer = $('.img-gallery').isotope({
+    itemSelector: '.grid-item',
+        percentPosition: true,
+      masonry: {
+          columnWidth: '.grid-sizer'
+      }
+}) */
+
 images.forEach((img,index) => {
     img.addEventListener("click", () => {
         openImage(`img/image${index}.png`)
