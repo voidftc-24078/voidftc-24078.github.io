@@ -128,12 +128,14 @@ img {
   display: inline-block;
   text-align: center;
   margin: 4em;
-  top: 18em;
+  top: 16em;
+  overflow: visible;
 }
 
 .image img {
   border: solid 0.5em var(--voidgreen);
   border-radius: 1em;
+  filter: drop-shadow(var(--voidgreen) 0 0 10px);
 }
 
 .caption {
@@ -141,10 +143,10 @@ img {
 }
 
 .info {
-  text-shadow: 0 0 0;
-  font-size: 1.5em;
+  text-shadow: 0 0 20px #000;
   margin: 1em;
   margin-top: 2em;
+  font-size: 1.5em;
 }
 
 .cursor {
