@@ -16,6 +16,7 @@
     <!-- type="text/css" media="all"> -->
   </head>
   <body>
+    <script src="js/main.js"></script>
     <!--
     <h1>hello</h1>
     <img src="voidlogo.svg" alt="[VOiD] Logo" />
@@ -25,32 +26,14 @@
       <a class="item" href="">sponsor</a>
     </p>
     -->
-    <nav class="navbar">
-      <div class="logo">
-        <a href="index.html">
-          <img src="void.svg" alt="logo">
-        </a>
-      </div>
-      <div class="main-menu">
-        <div class="spacer">
-          <h1>---------------------------------</h1>
-        </div>
-        <div class="links">
-          <ul>
-            <li><a href="about.html">about</a></li>
-            <li><a href="gallery.html">gallery</a></li>
-            <li><a href="sponsor.html">sponsor</a></li>
-            <li><a href="resources.html">resources</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div w3-include-html="navbar.html"></div>
     <!-- <marquee behavior="scroll" direction="left" class="scroller" loop="6">Here is some scrolling text... right to left!</marquee> -->
     <div class="marquee">
       <span class="content">2nd year FIRST® Tech Challenge team based in Charlotte, North Carolina; under the umbrella of Charlotte STEAMworks, a nonprofit organization which provides services that allow us to manage our own team's finances.    &nbsp;</span>
       <span class="content">2nd year FIRST® Tech Challenge team based in Charlotte, North Carolina; under the umbrella of Charlotte STEAMworks, a nonprofit organization which provides services that allow us to manage our own team's finances.    &nbsp;</span>
     </div>
     <div id="typedtext" class="info"></div>
-    <script src="js/main.js"></script>
+    <script>includeHTML();</script>
+    <script src="js/home.js"></script>
   </body>
 </html>
