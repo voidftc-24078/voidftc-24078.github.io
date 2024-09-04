@@ -31,6 +31,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--voidgreen);
+  text-shadow: 0 0 20px var(--voidgreen);
   /* font-family: "glasstty"; */
 }
 
@@ -51,7 +52,8 @@ img {
   color: var(--voidgreen);
   background-color: rgba(0,0,0,.5);
   padding: 20px;
-  border: 6px solid var(--voidgreenmuted);
+  border-bottom: 6px solid var(--voidgreenmuted);
+  border-width: 0.2em;
 }
 
 .navbar {
@@ -72,6 +74,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .main-menu {
@@ -92,6 +95,8 @@ img {
   display: flex;
   justify-content: flex-start;
   overflow: hidden;
+  animation: fadeIn 2s;
+  text-shadow: 0 0 1px var(--voidgreen);
 }
 
 .content {
@@ -99,6 +104,12 @@ img {
   padding: 0 6rem;
   letter-spacing: 1px;
   animation: marquee 24s linear infinite;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 @keyframes marquee {
