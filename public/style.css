@@ -54,14 +54,28 @@ img {
   border: 6px solid var(--voidgreenmuted);
 }
 
-.navbar .container {
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.logo {
+  margin: 0.8em;
+  width: 12em;
+  margin-bottom: 0;
+  
+  margin-right: auto;
+  margin-left: 1.8em;
+}
+
+.links ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.navbar .main-menu ul {
-  display: flex;
+.main-menu {
+  margin-right: 2em;
 }
 
 .navbar ul li a {
@@ -74,6 +88,7 @@ img {
 }
 
 .marquee {
+  padding-top: 0.5em;
   display: flex;
   justify-content: flex-start;
   overflow: hidden;
