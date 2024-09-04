@@ -20,6 +20,7 @@
 
 
 body {
+  overflow-x: hidden;
   background-color: black;
   background-image: url(bg.png);
   background-repeat: no-repeat;
@@ -175,7 +176,7 @@ img {
 
 .jscontent{
   white-space: nowrap;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 /* team.html */
