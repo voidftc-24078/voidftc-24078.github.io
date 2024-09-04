@@ -1,7 +1,23 @@
 
 var aText = new Array(
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod finibus velit eget convallis. Duis ut vestibulum metus. Nullam vehicula dui eros, at pharetra nisl dapibus at. Aliquam eget elementum orci. Curabitur et quam quis felis ornare auctor. Maecenas ac eleifend nibh. Maecenas at nisi id urna eleifend hendrerit. Integer condimentum arcu eu faucibus suscipit. Suspendisse malesuada magna et diam fermentum posuere. Ut fermentum cursus feugiat. Suspendisse potenti. Etiam dolor metus, pulvinar at lacus eu, fermentum interdum mi. Nulla consequat dictum sagittis"
+    "--MEMBERS--",
+    "Blake",
+    "Ezra",
+    "Gabby",
+    "Jackson",
+    "James",
+    "Luke",
+    "Owen",
+    "Tarance",
+    "--MENTORS--",
+    "Gabriel",
+    "Illana",
+    "Mallorie",
+    "Nicole",
+    "Tonya",
+    "",
     );
+
     var iSpeed = 20; // time delay of print out
     var iIndex = 0; // start printing array at this posision
     var iArrLength = aText[0].length; // the length of the text array
@@ -10,6 +26,7 @@ var aText = new Array(
     var sContents = ''; // initialise contents variable
     var iRow; // initialise current row
     var iD = "typedtext";
+    var iLineDelay = 20;
 
 function typewriter()
 {
@@ -28,13 +45,12 @@ function typewriter()
     
     if ( iIndex != aText.length ) {
     iArrLength = aText[iIndex].length;
-    setTimeout("typewriter()", 500);
+    setTimeout("typewriter()", iLineDelay);
     }
     } else {
     setTimeout("typewriter()", iSpeed);
     }
     
 }
-
 
 typewriter();
