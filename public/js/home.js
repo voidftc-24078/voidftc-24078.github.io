@@ -1,6 +1,6 @@
 
 var aText = new Array(
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod finibus velit eget convallis. Duis ut vestibulum metus. Nullam vehicula dui eros, at pharetra nisl dapibus at. Aliquam eget elementum orci. Curabitur et quam quis felis ornare auctor. Maecenas ac eleifend nibh. Maecenas at nisi id urna eleifend hendrerit. Integer condimentum arcu eu faucibus suscipit. Suspendisse malesuada magna et diam fermentum posuere. Ut fermentum cursus feugiat. Suspendisse potenti. Etiam dolor metus, pulvinar at lacus eu, fermentum interdum mi. Nulla consequat dictum sagittis"
+    "2nd year FIRST® Tech Challenge team based in Charlotte, North Carolina; under the umbrella of Charlotte STEAMworks, a nonprofit organization which provides services that allow us to manage our own team's finances."
     );
     var iSpeed = 20; // time delay of print out
     var iIndex = 0; // start printing array at this posision

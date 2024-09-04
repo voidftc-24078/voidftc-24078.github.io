@@ -120,9 +120,31 @@ img {
   }
 }
 
+.image {
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 4em;
+  top: 18em;
+}
+
+.image img {
+  border: solid 0.5em var(--voidgreen);
+  border-radius: 1em;
+}
+
+.caption {
+  display: block;
+}
+
 .info {
   text-shadow: 0 0 0;
+  font-size: 1.5em;
   margin: 1em;
+  margin-top: 2em;
 }
 
 .cursor {
@@ -138,14 +160,6 @@ img {
   }
 }
 
-/* team.html */
-
-.team {
-  text-shadow: 0 0 20px #000;
-  margin: 2em;
-  font-size: 1.5em;
-}
-
 .jsmarquee {
   overflow: hidden;
   display: flex;
@@ -159,6 +173,14 @@ img {
 .jscontent{
   white-space: nowrap;
   text-transform: uppercase
+}
+
+/* team.html */
+
+.team {
+  text-shadow: 0 0 20px #000;
+  margin: 2em;
+  font-size: 1.5em;
 }
 
 /* utility classes */
