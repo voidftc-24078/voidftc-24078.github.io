@@ -11,25 +11,26 @@
 
 function typewriter()
 {
+
     sContents =  ' ';
     iRow = Math.max(0, iIndex-iScrollAt);
     var destination = document.getElementById(iD);
     
     while ( iRow < iIndex ) {
-    sContents += aText[iRow++] + '<br />';
+        sContents += aText[iRow++] + '<br />';
     }
     destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + '<span class="cursor">&block;</span>';
 
     if ( iTextPos++ == iArrLength ) {
-    iTextPos = 0;
-    iIndex++;
+        iTextPos = 0;
+        iIndex++;
     
-    if ( iIndex != aText.length ) {
-    iArrLength = aText[iIndex].length;
-    setTimeout("typewriter()", iLineDelay);
-    }
+        if ( iIndex != aText.length ) {
+            iArrLength = aText[iIndex].length;
+            setTimeout("typewriter()", iLineDelay);
+        }
     } else {
-    setTimeout("typewriter()", iSpeed);
+        setTimeout("typewriter()", iSpeed);
     }
     
 }
