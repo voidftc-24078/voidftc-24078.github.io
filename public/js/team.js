@@ -11,6 +11,7 @@ var aText = new Array(
     "--MENTORS--",
     "Gabriel",
     "Iliana",
+    "Jake",
     "Liam",
     "Mallorie",
     "Nicole",
