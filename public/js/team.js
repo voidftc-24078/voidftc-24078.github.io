@@ -10,7 +10,7 @@ var aText = new Array(
     "Tarance",
     "--MENTORS--",
     "Gabriel",
-    "Illana",
+    "Iliana",
     "Mallorie",
     "Nicole",
     "Tonya",
