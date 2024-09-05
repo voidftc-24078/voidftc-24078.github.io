@@ -124,8 +124,6 @@ img {
 .image {
   overflow: hidden;
   display: flex;
-  position: absolute;
-  vertical-align: top;
   display: inline-block;
   text-align: center;
   margin: 4em;
