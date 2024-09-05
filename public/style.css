@@ -201,6 +201,11 @@ img {
   margin: 2em;
   font-size: 1.5em;
   animation: fadeIn 2s;
+  transition: 0.5s;
+}
+
+.back:hover {
+  color: var(--voidgreenmuted);
 }
 
 /* gallery */
