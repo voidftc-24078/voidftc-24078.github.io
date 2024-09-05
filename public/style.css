@@ -194,6 +194,15 @@ img {
   font-size: 1.5em;
 }
 
+/* back */
+
+.back {
+  text-shadow: 0 0 20px #000;
+  margin: 2em;
+  font-size: 1.5em;
+  animation: fadeIn 2s;
+}
+
 /* gallery */
 
 .img-gallery {
