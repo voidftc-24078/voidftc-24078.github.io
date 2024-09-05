@@ -5,16 +5,10 @@
   </head>
   <body>
     <script src="js/main.js"></script>
-    <!--
-    <h1>hello</h1>
-    <img src="voidlogo.svg" alt="[VOiD] Logo" />
-    <p class="links">
-      <a class="item" href="">about</a>
-      <a class="item" href="">gallery</a>
-      <a class="item" href="">sponsor</a>
-    </p>
-    -->
+    <script src="js/mobile.js"></script>
     <div w3-include-html="navbar.html"></div>
+    <!-- if on mobile use the mobile navbar (mnavbar) -->
+    <script>mobile("navbar.html","mnavbar.html")</script>
     <div class="jsmarquee">
       <div class="jscontent">Blake . Ezra . Gabby . Jackson . James . Luke . Owen . Tarance . Blake . Ezra . Gabby . Jackson . James . Luke . Owen . Tarance .&nbsp;</div>
     </div>
@@ -30,10 +24,20 @@
       var endText = '<span class="cursor">&block;</span>';
     </script>
     <script src="js/typewriter.js"></script>
-    <div class="image">
-      <img src="oldteam.png"/>
+    <div id="imgcontainter" class="image">
+      <img id="imghome" class="imghome" src="oldteam.png"/>
       <span class="caption">The team at the 2023-2024 season qualifier (last year)</span>
     </div>
+    <script>
+      console.log(isOnMobile);
+      if(isOnMobile){
+        /* make the image more visible on mobile */
+        document.getElementById("imghome").style.maxWidth="100";
+        document.getElementById("imghome").style.maxHeight="100vh";
+        document.getElementById("imghome").style.border="solid 0.2em var(--voidgreen)";
+        document.getElementById("imgcontainter").style.margin="2em";
+      }
+    </script>
     <script>includeHTML();</script>
   </body>
 </html>
