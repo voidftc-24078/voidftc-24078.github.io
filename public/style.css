@@ -55,9 +55,6 @@ img {
   padding: 20px;
   border-bottom: 6px solid var(--voidgreenmuted);
   border-width: 0.2em;
-}
-
-.navbar {
   list-style: none;
   display: flex;
 }
@@ -122,7 +119,6 @@ img {
 }
 
 .image {
-  display: flex;
   display: inline-block;
   text-align: center;
   margin: 4em;
@@ -176,7 +172,7 @@ img {
 }
 
 .jsmarquee {
-  overflow: hidden;
+  overflow: visible;
   display: flex;
   position: absolute;
   top: 7em;

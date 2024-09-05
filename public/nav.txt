@@ -1,0 +1,4 @@
+<script src="js/mobile.js"></script>
+<!-- if on mobile use the mobile navbar (mnavbar) -->
+<div w3-include-html="navbar.html"></div>
+<script>mobile("navbar.html","mnavbar.html")</script>

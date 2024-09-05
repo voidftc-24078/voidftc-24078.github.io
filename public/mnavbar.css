@@ -1,0 +1,51 @@
+.navbar { all: unset; }
+.logo { all: unset; }
+.links ul { all: unset; }
+.main-menu { all: unset; }
+.navbar ul li a { all: unset; }
+.navbar ul li a:hover { all: unset; }
+.jsmarquee { all:unset; }
+.jscontent { all:unset; }
+
+.navbar {
+    padding-top: 2.8em;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    overflow: visible;
+}
+  
+.logo {
+    margin: auto;
+    width: 80%;
+}
+  
+.main-menu {
+    margin-left: 1rem;
+    overflow: visible;
+    font-size: 17pt;
+}
+
+.navbar ul li a:hover {
+    color: var(--voidgreenmuted);
+}
+
+.jsmarquee {
+    overflow: visible;
+    display: flex;
+    position: absolute;
+    top: 0em;
+    left: 0;
+    z-index: -100;
+    opacity: 0.5;
+}
+
+.jscontent{
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.info, .infobox {
+    margin-top: 0;
+    font-size: 16pt;
+}
