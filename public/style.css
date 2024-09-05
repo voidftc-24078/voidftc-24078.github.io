@@ -142,11 +142,30 @@ img {
   text-shadow: 0 0 20px #000;
 }
 
+.containertext {
+  display: grid;
+}
+
+.info .infobox {
+  grid-column: 1;
+  grid-row: 1;
+}
+
 .info {
   text-shadow: 0 0 20px #000;
   margin: 1em;
   margin-top: 2em;
   font-size: 1.5em;
+  position: absolute;
+  top: 12%;
+}
+
+.infobox {
+  text-shadow: none;
+  margin: 1em;
+  margin-top: 2em;
+  font-size: 1.5em;
+  color: rgba(0,0,0,0)
 }
 
 .cursor {
