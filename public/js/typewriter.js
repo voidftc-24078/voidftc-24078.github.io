@@ -8,6 +8,7 @@ var sContents = ''; // initialise contents variable
 var iRow; // initialise current row
 var iLineDelay = 20;
 
+
 function typewriter()
 {
 
