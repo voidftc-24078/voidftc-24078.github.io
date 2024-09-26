@@ -8,6 +8,7 @@ var aText = new Array(
     "Luke",
     "Owen",
     "Tarance",
+    "",
     "--MENTORS--",
     "Gabriel",
     "Iliana",
