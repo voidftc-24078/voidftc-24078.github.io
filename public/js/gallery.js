@@ -27,4 +27,3 @@ function openImage(img) {
     wrapper.style.display = 'flex'
     imgWrapper.src = img
 }
-
